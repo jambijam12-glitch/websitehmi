@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - HMI Komisariat Adiwangsa Cabang Jambi</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/pages.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-logo">
+                <h1>HMI Adiwangsa</h1>
+                <p>Cabang Jambi</p>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="../index.html">BERANDA</a></li>
+                <li><a href="tentang.html">TENTANG HMI</a></li>
+                <li><a href="struktur.html">STRUKTUR</a></li>
+                <li><a href="galeri.html">GALERI</a></li>
+                <li><a href="kontak.html" class="active">KONTAK</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="page-title">
+            <h1>Hubungi Kami</h1>
+            <p>Informasi Kontak dan Formulir Hubungi Kami</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="page-content">
+        <section class="content-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Informasi Kontak</h2>
+                    <p>Hubungi HMI Adiwangsa melalui berbagai saluran komunikasi</p>
+                </div>
+                <div class="contact-section">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Telepon</h4>
+                                <p>+62 857-6425-6176</p>
+                                <p>+62 838-2559-2446</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>@hmi.website</p>
+                                <p>hmiadiwangsa@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Alamat</h4>
+                                <p>Jl. Nusa Indah II, Simpang IV Sipin, Kec. Telanaipura, Kota Jambi, Jambi 36361, Indonesia </p>
+                                
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Jam Operasional</h4>
+                                <p>Senin - Jumat: 09:00 - 17:00</p>
+                                <p>Sabtu - Minggu: 09:00 - 14:00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <h3 style="color: #1e3c72; margin-bottom: 1.5rem;">Kirim Pesan</h3>
+                        <form onsubmit="handleSubmit(event)">
+                            <div class="form-group">
+                                <label for="nama">Nama Lengkap</label>
+                                <input type="text" id="nama" name="nama" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="telepon">Nomor Telepon</label>
+                                <input type="tel" id="telepon" name="telepon">
+                            </div>
+                            <div class="form-group">
+                                <label for="subjek">Subjek</label>
+                                <input type="text" id="subjek" name="subjek" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="pesan">Pesan</label>
+                                <textarea id="pesan" name="pesan" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Kirim Pesan</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section bg-light">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Ikuti Media Sosial Kami</h2>
+                    <p>Dapatkan update terbaru dari HMI Adiwangsa</p>
+                </div>
+                <div class="social-links" style="justify-content: center; margin-top: 2rem;">
+                    <a href="https://www.instagram.com/hmikomisariatadiwangsa" class="social-btn" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="https://www.tiktok.com/@hmikomisariatadiwangsa" class="social-btn" target="_blank">
+                        <i class="fab fa-tiktok"></i>
+                        <span>TikTok</span>
+                    </a>
+                
+                    </a>
+                    <a href="https://wa.me/083825592446" class="social-btn" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Peta Lokasi</h2>
+                    <p>Temukan kami di peta</p>
+                </div>
+                <a href="https://maps.app.goo.gl/WCqZ1W9ri549wGDA9?g_st=ic" target="_blank" style="text-decoration: none;">
+                    <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 3rem; border-radius: 10px; text-align: center; color: white; cursor: pointer; transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.3)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+                        <i class="fas fa-map" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+                        <p>Embed Peta Google Maps atau lokasi lainnya di sini</p>
+                        <p style="font-size: 0.9rem; opacity: 0.9;">HMI Komisariat Adiwangsa, Cabang Jambi, Indonesia</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>HMI Adiwangsa</h3>
+                    <p>Cabang Jambi</p>
+                    <p>Membangun Kader Muslim Profesional</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Menu Cepat</h4>
+                    <ul>
+                        <li><a href="../index.html">Beranda</a></li>
+                        <li><a href="tentang.html">Tentang HMI</a></li>
+                        <li><a href="galeri.html">Galeri</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Kontak</h4>
+                    <p><i class="fas fa-phone"></i> +62 838-2559-2446</p>
+                    <p><i class="fas fa-envelope"></i> @hmi.website</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Jambi, Indonesia</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 HMI Komisariat Adiwangsa Cabang Jambi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+    <script>
+        function handleSubmit(event) {
+            event.preventDefault();
+            
+            // Get form values
+            const nama = document.getElementById('nama').value;
+            const email = document.getElementById('email').value;
+            const telepon = document.getElementById('telepon').value;
+            const subjek = document.getElementById('subjek').value;
+            const pesan = document.getElementById('pesan').value;
+            
+            // Create WhatsApp message
+            const message = `Nama: ${nama}%0AEmail: ${email}%0ATelepon: ${telepon}%0ASubjek: ${subjek}%0APesan: ${pesan}`;
+            const whatsappURL = `https://wa.me/083825592446?text=${message}`;
+            
+            // Open WhatsApp or show success message
+            window.open(whatsappURL, '_blank');
+            
+            // Reset form
+            document.querySelector('form').reset();
+            alert('Pesan Anda telah disiapkan untuk dikirim melalui WhatsApp. Terima kasih telah menghubungi kami!');
+        }
+    </script>
+</body>
+</html>

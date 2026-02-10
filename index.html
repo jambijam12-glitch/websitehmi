@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HMI Komisariat Adiwangsa Cabang Jambi</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-logo">
+                <h1>HMI Adiwangsa</h1>
+                <p>Cabang Jambi</p>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="active">BERANDA</a></li>
+                <li><a href="pages/tentang.html">TENTANG HMI</a></li>
+                <li><a href="pages/struktur.html">STRUKTUR</a></li>
+                <li><a href="pages/galeri.html">GALERI</a></li>
+                <li><a href="pages/kontak.html">KONTAK</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-carousel">
+            <div class="carousel-slide active">
+                <img src="img/gmbr_1.jpeg" alt="HMI Adiwangsa 1">
+            </div>
+            <div class="carousel-slide">
+                <img src="img/gmbr_2.jpeg" alt="HMI Adiwangsa 2">
+            </div>
+            <div class="carousel-slide">
+                <img src="img/gmbr_3.jpeg" alt="HMI Adiwangsa 3">
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>HMI KOMISARIAT ADIWANGSA</h1>
+            <p>CABANG JAMBI</p>
+            <p class="tagline">"Membina Kader Muslim Profesional untuk Kemajuan Bangsa"</p>
+            <a href="pages/tentang.html" class="btn btn-primary">Pelajari Lebih Lanjut</a>
+        </div>
+        <div class="carousel-controls">
+            <button class="carousel-prev" onclick="changeSlide(-1)">❮</button>
+            <div class="carousel-dots">
+                <span class="dot active" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            <button class="carousel-next" onclick="changeSlide(1)">❯</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Tentang HMI Adiwangsa</h2>
+                <p>Visi dan Misi Kami</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>"Hmi Adiwangsa Cabang Jambi"</h3>
+                    <p>HMI Komisariat Adiwangsa Jambi lahir sebagai bagian dari dinamika dan semangat perjuangan mahasiswa Islam di Provinsi Jambi. Komisariat ini resmi berdiri pada 23 Januari 2025 sebagai komisariat persiapan di bawah naungan HMI Cabang Jambi, berangkat dari kesadaran kolektif mahasiswa Universitas Adiwangsa Jambi akan pentingnya wadah kaderisasi yang mampu memadukan nilai keislaman, keilmuan, dan keindonesiaan. Kehadirannya menjadi tonggak awal bagi penguatan peran HMI di lingkungan kampus Adiwangsa, sekaligus sebagai ruang pembinaan intelektual dan moral bagi mahasiswa.</p>
+                    
+                    <p>Pasca pendirian, HMI Komisariat Adiwangsa Jambi mulai melakukan konsolidasi organisasi dan penguatan internal. Pada 14 Maret 2025, pengurus komisariat resmi dilantik, yang menandai dimulainya roda organisasi secara struktural dan terprogram. Di bawah kepemimpinan awal tersebut, komisariat berfokus pada pembenahan organisasi, perekrutan kader, serta penanaman nilai-nilai dasar HMI melalui kegiatan kaderisasi, diskusi keilmuan, dan penguatan identitas kader sebagai mahasiswa Islam yang bertanggung jawab secara intelektual dan sosial.</p>
+
+                    <p>Sepanjang tahun 2025 hingga sekarang, HMI Komisariat Adiwangsa Jambi terus menunjukkan eksistensinya tidak hanya dalam ranah internal, tetapi juga dalam merespons isu-isu eksternal. Komisariat ini aktif menyuarakan sikap terhadap berbagai persoalan kemahasiswaan dan sosial, menjunjung tinggi nilai keadilan, kemanusiaan, dan solidaritas antarkader. Hingga saat ini, HMI Komisariat Adiwangsa Jambi terus berproses sebagai organisasi kader, memperkuat tradisi intelektual, dan berupaya melahirkan kader-kader yang mampu berkontribusi nyata bagi kampus, masyarakat, serta bangsa, sejalan dengan cita-cita Himpunan Mahasiswa Islam.</p>
+                    <a href="pages/tentang.html" class="btn btn-outline">Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section class="leadership">
+        <div class="container">
+            <div class="section-title">
+                <h2>Kepemimpinan</h2>
+                <p>Badan Pengurus Harian HMI Adiwangsa Cabang Jambi 2025-2026</p>
+            </div>
+            <div class="leadership-grid">
+                <div class="leader-card">
+                    <div class="leader-image">
+                        <img src="img/ihsan.jpeg" alt="Ihsan">
+                    </div>
+                    <h3>Ihsan Perdana</h3>
+                    <p>Ketua Umum HMI Komisariat Adiwangsa Jambi</p>
+                    <p class="periode">2025-2026</p>
+                </div>
+                <div class="leader-card">
+                    <div class="leader-image">
+                        <img src="img/riska.jpeg" alt="Riska">
+                    </div>
+                    <h3>Riska Hidayatulaini</h3>
+                    <p>Sekretaris Umum HMI Komisariat Adiwangsa Jambi</p>
+                    <p class="periode">2025-2026</p>
+                </div>
+                <div class="leader-card">
+                    <div class="leader-image">
+                        <img src="img/leo.jpeg" alt="Leo">
+                    </div>
+                    <h3>Marcelleo</h3>
+                    <p>Bendahara Umum HMI Komisariat Adiwangsa Jambi</p>
+                    <p class="periode">2025-2026</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section class="activities">
+        <div class="container">
+            <div class="section-title">
+                <h2>Aktivitas Terbaru</h2>
+                <p>Berita dan Kegiatan HMI Adiwangsa</p>
+            </div>
+            <div class="activities-grid">
+                <article class="activity-card">
+                    <div class="card-image">
+                        <img src="img/dialog.jpeg" alt="Dialog" />
+                    </div>
+                    <div class="card-content">
+                        <span class="category">Kegiatan</span>
+                        <h3>DIALOG KADER</h3>
+                        <p>Program Bidang Kastrad Tentang "Apakah Pilkada Melalui DPR Relevan Atau Tidak Dalam Mengurangi Politik Uang Di Pemilu"</p>
+                        <a href="#" class="read-more">Baca Selengkapnya</a>
+                    </div>
+                </article>
+
+                <article class="activity-card">
+                    <div class="card-image">
+                        <img src="img/fun%20badminton.jpeg" alt="Fun Badminton" />
+                    </div>
+                    <div class="card-content">
+                        <span class="category">Olahraga</span>
+                        <h3>FUN BADMINTON Kader HMI Adiwangsa</h3>
+                        <p>Program Bidang PTKP Dalam Kegiatan fun badminton bermanfaat untuk mempererat silaturahmi dan kebersamaan antaranggota, meningkatkan kesehatan dan kebugaran jasmani, serta menjadi sarana rekreasi yang positif di tengah aktivitas akademik dan organisasi. Selain itu, kegiatan ini menumbuhkan sportivitas, kerja sama tim, dan semangat kekeluargaan dalam organisasi....</p>
+                        <a href="#" class="read-more">Baca Selengkapnya</a>
+                    </div>
+                </article>
+
+                <article class="activity-card">
+                    <div class="card-image">
+                        <img src="img/donasi.jpeg" alt="Donasi" />
+                    </div>
+                    <div class="card-content">
+                        <span class="category">Beramal Baik</span>
+                        <h3>Program Open Donasi Untuk Bencana Sumatera</h3>
+                        <p>Open Donasi Sumatera sebagai bentuk kepedulian dan solidaritas kemanusiaan bagi saudara-saudara kita yang terdampak bencana di wilayah Sumatera. Donasi yang terkumpul akan disalurkan untuk membantu kebutuhan darurat dan pemulihan masyarakat terdampak. Mari bersama ulurkan tangan, sekecil apa pun bantuan kita sangat berarti....</p>
+                        <a href="#" class="read-more">Baca Selengkapnya</a>
+                    </div>
+                </article>
+                <article class="activity-card">
+                    <div class="card-image">
+                        <img src="img/foto%20rak.jpeg" alt="Kegiatan Baru" />
+                    </div>
+                    <div class="card-content">
+                        <span class="category">Kegiatan</span>
+                        <h3>Rapat Anggota Komisariat Ke-II</h3>
+                        <p>Rapat Anggota Komisariat (RAK) Himpunan Mahasiswa Islam (HMI) adalah salah satu kegiatan penting dalam struktur organisasi HMI.RAK HMI adalah forum tertinggi di tingkat komisariat yang bertujuan untuk melakukan evaluasi kinerja, menyusun program kerja, dan memilih kepengurusan baru.Forum ini berfungsi sebagai sarana untuk mengembangkan kemampuan leadership dan manajerial bagi kader-kader HMI, serta memperkuat semangat kebersamaan dan solidaritas antar anggota.Melalui RAK HMI, diharapkan dapat terbentuk pemimpin-pemimpin visioner yang mampu membawa perubahan positif baik di dalam maupun di luar organisasi.</p>
+                        <a href="#" class="read-more">Baca Selengkapnya</a>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="statistics">
+        <div class="container">
+            <div class="stat-item">
+                <h2>56+</h2>
+                <p>Anggota Aktif</p>
+            </div>
+            <div class="stat-item">
+                <h2>6+</h2>
+                <p>Bidang Pengurus</p>
+            </div>
+            <div class="stat-item">
+                <h2>50+</h2>
+                <p>Program Tahunan</p>
+            </div>
+            <div class="stat-item">
+                <h2>100%</h2>
+                <p>Dedikasi & kekeluargaan</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="social-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Ikuti Media Sosial Kami</h2>
+                <p>Dapatkan Update Terbaru dari HMI Adiwangsa</p>
+            </div>
+            <div class="social-links">
+                <a href="https://instagram.com/hmikomisariatadiwangsa" class="social-btn" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+                <a href="https://tiktok.com/@hmikomisariatadiwangsa" class="social-btn" target="_blank">
+                    <i class="fab fa-tiktok"></i>
+                    <span>TikTok</span>
+                </a>
+                <a href="index.html" class="social-btn" target="_blank">
+                    <i class="fas fa-globe"></i>
+                    <span>Website</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>HMI Adiwangsa</h3>
+                    <p>Cabang Jambi</p>
+                    <p>Membangun Kader Muslim Profesional</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Menu Cepat</h4>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="pages/tentang.html">Tentang HMI</a></li>
+                        <li><a href="pages/galeri.html">Galeri</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Kontak</h4>
+                    <p><i class="fas fa-phone"></i> +62 838-2559-2446</p>
+                    <p><i class="fas fa-envelope"></i> hmiadiwangsa@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Jambi, Indonesia</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 HMI Komisariat Adiwangsa Cabang Jambi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
